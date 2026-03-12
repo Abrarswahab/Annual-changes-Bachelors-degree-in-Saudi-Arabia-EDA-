@@ -1,17 +1,6 @@
 import streamlit as st
 
-# # ── Colours ────────────────────────────────────────────────────
-# YEARS      = [2021, 2022, 2023]
-# YC         = {2021: "#2874A6", 2022: "#1E8449", 2023: "#E67E22"}
-
-# DARK_BG    = "#0A0F1E"
-# DARK_PAPER = "#0D1526"
-# DARK_GRID  = "rgba(255,255,255,0.07)"
-# DARK_AXIS  = "rgba(255,255,255,0.35)"
-# DARK_TEXT  = "#E8EDF5"
-# FONT       = "Tajawal"
-
-# ── CSS ────────────────────────────────────────────────────────
+# CSS 
 MAIN_CSS = """
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&family=IBM+Plex+Mono:wght@400;600&display=swap');

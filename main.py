@@ -91,11 +91,11 @@ with tabs[0]:
       <p>تتتبع هذه اللوحة <strong>التغيرات السنوية في أعداد الطلاب المستجدين</strong> بمرحلة البكالوريوس في الجامعات الحكومية السعودية عبر ثلاثة أعوام: <strong>٢٠٢١ و٢٠٢٢ و٢٠٢٣</strong>. <strong>جميع المخططات تعرض النسب المئوية من إجمالي كل عام</strong> لتسهيل المقارنة الهيكلية بين الأعوام.</p>
       <p>تشمل البيانات <strong>{int(df[CNT].sum()):,} طالباً وطالبة</strong> موزعين على <strong>١٣ منطقة إدارية</strong> و<strong>{df[ORG].nunique()} جهة تعليمية</strong> و<strong>١١ مجالاً دراسياً</strong>.</p>
       <div class="tags">
-        <span class="tag">📅 ٢٠٢١ – ٢٠٢٢ – ٢٠٢٣</span>
-        <span class="tag">👥 {int(df[CNT].sum()):,} طالب بكالوريوس</span>
-        <span class="tag">🗺️ ١٣ منطقة</span>
-        <span class="tag">🏫 {df[ORG].nunique()} جهة تعليمية</span>
-        <span class="tag">📊 نسب مئوية من إجمالي كل عام</span>
+        <span class="tag"> ٢٠٢١ – ٢٠٢٢ – ٢٠٢٣</span>
+        <span class="tag"> {int(df[CNT].sum()):,} طالب بكالوريوس</span>
+        <span class="tag"> ١٣ منطقة</span>
+        <span class="tag"> {df[ORG].nunique()} جهة تعليمية</span>
+        <span class="tag"> نسب مئوية من إجمالي كل عام</span>
       </div>
     </div>""", unsafe_allow_html=True)
 
