@@ -45,3 +45,6 @@ pip install -r requirements.txt
 ```bash
 streamlit run main.py
 ```
+
+### Streamlit link
+You can checkout the data analysis in this streamlit link: https://annualchangesbachelorstudents.streamlit.app/
